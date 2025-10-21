@@ -4,13 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>June's Personal Site</title>
+  
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
     html {
-      scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* height of navbar + margin */
     }
 
     body {
@@ -112,6 +114,26 @@
       color: #333;
     }
 
+    .responsive-img {
+      display: block;
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .outro{
+      background: linear-gradient(to bottom right, #f3f9ff, #ffffff);
+      padding: 60px 20px;
+      text-align: center;
+      font-size: 1.1em;
+      color: #444;
+      font-style: italic;
+    }
+
+
     p {
       font-size: 0.95em;
       line-height: 1.8;
@@ -130,7 +152,7 @@
   <!-- NAVBAR -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#" class="logo">June</a>
+      <a href="#" class="logo">Jia Wen Ng (June)</a>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#hobbies">Hobbies</a>
@@ -157,37 +179,50 @@
   <!-- ABOUT -->
   <section id="about">
     <div class="content-container">
-      <h2>💼 About Me</h2>
+      <h2>💼 My Story</h2>
+  
       <p>
-        I recently graduated on <strong>25 July 2025</strong> from the University of Melbourne with a Bachelor of Commerce (Finance). 
-        Before that, I completed my first year at HELP University in Malaysia.
+        I recently graduated on <strong>25 July 2025</strong> from the University of Melbourne with a Bachelor of Commerce (Finance). Before that, I completed my first year at HELP University in Malaysia.
       </p>
+  
       <p>
-        I’m grateful to have experienced two different learning environments and a variety of teaching styles. 
-        With this degree, I’m ready to step into the real world, keep learning, and build practical skills along the way.
+        I’m grateful to have experienced two different learning environments and a mix of teaching styles. With this degree, I feel ready to step into the real world — to keep learning, build practical skills, and find where I truly thrive.
       </p>
+  
       <p>
-        I know I’m not at 100% yet (who is, really?), but I’m eager to take that first step — and learn fast. 
-        Through internships, I’ve worked in healthcare, finance, and tech — and I genuinely enjoyed each one. 
-        Every role gave me something new, whether through projects, mentors, or colleagues who became friends.
+        I know I’m not at 100% yet (who is, really?), but I’m eager to take that first step and learn fast. Through internships, I’ve worked across healthcare, finance, and tech — and I genuinely enjoyed every one of them. Each role gave me something new, whether through projects, mentors, or colleagues who eventually became friends.
       </p>
+  
       <p>
-        Some mentors I still remember fondly: <strong>Silas, Hazel, Soon Shuen, Wei Lik, Greg</strong>… the list goes on.
-        I met each of them through short work experiences or spontaneous opportunity chats. 
-        What they all had in common? They never discouraged questions — they welcomed curiosity and exploration.
+        Some ex-colleagues-turned-mentors I still remember fondly: <strong>Silas, Hazel, Soon Shuen, Wei Lik, Greg</strong>... the list goes on. I met each of them through short-term projects or spontaneous chats — but what they all had in common was that they never discouraged questions. They welcomed curiosity, and they encouraged exploration.
       </p>
+  
       <p>
-        I once asked a colleague from a different department what it was like being a business analyst. 
-        She was surprised — I had no background in it and wasn’t even in her team. But I was genuinely curious.
-        I didn’t want a textbook answer — I wanted to hear from someone living it.
+        I once asked a colleague from the tech team what it was like to be a business analyst. She was surprised — not just by the question, but by why I was even asking. After all, I had no background in it and wasn’t even in her department. But I wasn’t trying to apply for the role — I just wanted to know what it actually felt like, beyond what a job description says. Real insights, from a real person.
       </p>
+  
       <p>
-        <strong>My takeaway?</strong> Keep trying. Don’t get comfortable too early. Explore more fields. Get hands-on experience. Talk to people. 
-        They’ll teach you more than any lecture ever could — and yes, sometimes they’ll challenge you too. 
-        But that’s how you grow, and that’s how you find your path.
+        Sure, I know that one person’s answer doesn’t represent the entire role — every company and team does things differently. But it still matters. Because I believe that when you’re curious about people, you learn about possibilities.
+      </p>
+  
+      <p>
+        I recently read a book called <em>Ikigai</em> by Hector Garcia and Francesc Miralles — it talks about how curiosity can lead you to your purpose, your reason for being. That really resonated with me. If we’re going to spend so much of life working, we might as well find it interesting.
+      </p>
+  
+      <figure style="text-align: center; margin: 30px auto;">
+        <img src="ikigai.jpg" alt="Illustration of the book Ikigai" class="responsive-img" loading="lazy">
+        <figcaption style="font-size: 0.9em; color: #555; margin-top: 10px;">
+          <em>Ikigai is a beautiful blend of passion, mission, vocation, and profession.</em>
+        </figcaption>
+      </figure>
+
+      <p>
+        <strong>My takeaway?</strong> Stay resilient and don’t get comfortable too early. Keep exploring new fields, talk to more people, and paint my life with different experiences. Somewhere in the middle of all that, I believe I’ll find my own Ikigai.
       </p>
     </div>
-  </section>
+  </section>  
+
+
 
   <!-- HOBBIES -->
   <section id="hobbies">
@@ -195,22 +230,22 @@
       <h2>🎵 My Musical Journey</h2>
       <p>
         I’ve been surrounded by music since I was three — starting with the piano. Not in a competitive sense, but more in a playful, creative way. 
-        At 13, I picked up the violin and joined my high school band, where we played everything from film scores to musical theatre classics.
+        At 13, I picked up the violin and joined my high school band, where we played everything from film scores to musical theatre classics. (bits of My Chemical Romance to Hamilton the Musical)
       </p>
       <p>
-        Even during lockdown, our ensemble stayed connected. Just before everything shut down, we managed to record and release a performance together — a small but proud memory.
+        Even during lockdown, our ensemble stayed connected. Just before everything shut down, we managed to record and release a performance together.
       </p>
       <p>
-        These days, I also dabble in guitar and ukulele. I love how music brings people together — nothing beats the feeling of making music in sync with others. 
-        One day, I hope to form a little duet or band... maybe even try busking in Melbourne (we’ll see!).
+        These days, I also dabble in guitar and ukulele. I love how music brings people together — nothing beats the feeling of playing music with others. 
+        One day, I hope to form a little duet or band... maybe even try busking on the streets of Melbourne (we’ll see!).
       </p>
 
       <h2>🍳 Cooking Experiments</h2>
       <p>
-        I won’t pretend to be a master chef, but I do have a curious palate. I’ve tackled some pretty specific (and ambitious) dishes — like <em>sambal matah</em> and <em>roti canai</em>. Definitely not your beginner recipes!
+        I won’t pretend to be a master chef, but I do have a curious palate. I’ve tackled some pretty specific (and ambitious) dishes — like <em>sambal matah</em> and <em>roti canai</em>. Definitely not your beginner recipes! (some failed miserably..while my Nyonya layer cake did prove success)
       </p>
       <p>
-        As an international student in Melbourne, I slowly fell in love with cooking. Before that? I was completely lost in the kitchen. Don’t even ask me how to cook a chicken — I had no idea.
+        As an international student in Melbourne, I slowly fell in love with cooking. Cooking often transports me to a whole new realm of concentration and it's just so therapeutic tasting the food as it continues to develop its aroma and flavour.  But before all that? I was completely lost in the kitchen. Don’t even ask me how to cook a chicken — I had no idea.
         But now? I can proudly make scrambled and sunny side up eggs like a pro. Small wins count!
       </p>
 
@@ -218,17 +253,39 @@
       <p>
         When I moved into a place with a balcony, I finally had space to start my plant journey. These days, I proudly care for:
       </p>
+
+      <figure style="text-align: center; margin: 30px auto;">
+        <img src="plant.jpg" alt="My houseplants: Mon Mon, Wang Wang, and Hijau" class="responsive-img" loading="lazy">
+        <figcaption style="font-size: 0.9em; color: #555; margin-top: 10px;">
+          <em>Mon Mon, Wang Wang, Pun Pun and Hijau (out of frame, oops!)</em>
+        </figcaption>
+      </figure>
+
       <ul>
-        <li><strong>Mon Mon</strong> — my Monstera Deliciosa</li>
-        <li><strong>Wang Wang</strong> — my Chinese Money Plant (which means “prosper” in Mandarin)</li>
-        <li><strong>Hijau</strong> — my first-ever Snake Plant (which means “green” in Malay)</li>
+        <li><strong>Mon Mon</strong> — Monstera Deliciosa</li>
+        <li><strong>Wang Wang</strong> — Chinese Money Plant (the name meaning “prosper” in Mandarin)</li>
+        <li><strong>Pun Pun</strong> — Ficus Plant (the name meaning “plant” in Cantonese)</li>
+        <li><strong>Hijau</strong> — Snake Plant (the name meaning “green” in Malay)</li>
       </ul>
       <p>
-        I check their leaves for stress, water them gently (but not too much!), and beam with pride every time a new leaf appears.
-        Hijau’s due for a repotting soon — wish me luck!
+        I check their leaves for stress every day, water them gently (but not too much!), and beam with pride every time a new leaf appears. I often talk to them as well, encouraging them to grow well and showering them with positivity.
+        Mon Mon in particular, is growing at a very fast pace, showing signs of a new leaf. Wish me luck! 
       </p>
     </div>
   </section>
+
+  <section class="outro">
+    <p>
+      I still have so much more to share — and I’d love to know your story too! <br>
+      If anything here resonates, feel free to reach out via my 
+      <a href="https://www.linkedin.com/in/junenjw" target="_blank" style="color:#0077cc; text-decoration:none; font-weight:600;">LinkedIn</a> 
+      or 
+      <a href="mailto:ngjiawen621@gmail.com" style="color:#0077cc; text-decoration:none; font-weight:400;">Email</a>. 
+      <br><br>
+      May you find your Ikigai too.
+    </p>
+  </section>
+
 
 </body>
 </html>
